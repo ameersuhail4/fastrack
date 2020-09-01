@@ -134,6 +134,9 @@ h1{
 	background-color: lightgrey;
 }
 @media only screen and (min-width:320px) and (max-width:767px){
+.headerdiv button{
+	width:35%;
+}
 .navdiv{
 	flex-direction: column;
 }
@@ -147,7 +150,10 @@ h1{
 }
 .input1 input{
 	width: 40%;
-
+	font-size:8px;
+}.butt input{
+	width: 50%;
+	font-size: 8px;	
 }
 }
 @media only screen and (min-width:768px) and (max-width:1023px){
