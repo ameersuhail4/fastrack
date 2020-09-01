@@ -1,0 +1,109 @@
+body{
+	background-color: snow;
+}
+.headerdiv{
+	background-color: black;
+	padding: 0.5%;
+	color: white;
+	font-style: italic;
+	font-family: courier;
+	font-size: 30px;
+	text-align: center;
+	opacity: 80%;
+	padding-right: 2%;
+}.headerdiv button{
+	
+	width: 22%;
+	background-color: black;
+	padding: 0.5%;
+	float: left;
+	position: relative;
+}.headerdiv  a{
+	color: white;
+	font-family: courier;
+	font-size: 25px;
+	text-decoration: none;
+}.headerdiv button:hover{
+	background-color: lightgrey;
+	opacity: 80%;
+	animation:all 1s ease;
+}.headerdiv button a:hover{
+	opacity: 100%;
+	color: darkred;
+}
+.headerdiv div input{
+	padding: 1%;
+	width:15%;
+	float: right;
+	border:none;
+	outline: none;
+}.headerdiv i{
+	float: right;
+	padding: 0.5%;
+}.headerdiv img{
+	margin-left: 2%;
+	margin-top: 0.5%;
+}
+.headerdiv{
+	background-color: black;
+	padding: 0.5%;
+	color: white;
+	font-style: italic;
+	font-family: courier;
+	font-size: 30px;
+	text-align: center;
+	opacity: 80%;
+	padding-right: 2%;
+}.headerdiv img{
+	float: left;
+	padding:2% 0% 2% 2%;
+}.navdiv{
+	width: 100%;
+	background-color: black;
+	opacity: 80%;
+}.navdiv button{
+	width: 24.75%;
+	padding: 1%;
+	background-color: black;
+	outline: none;
+	border: 0.1px double grey;
+	
+}.navdiv button a{
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	font-family: courier;
+	font-size: 25px;
+	font-style: italic;
+	opacity: 100%;
+	letter-spacing: 2px;
+}.navdiv button:hover{
+	background-color: lightgrey;
+	opacity: 80%;
+	animation:all 1s ease;
+	padding: 1% 0.5%;
+}.navdiv button a:hover{
+	opacity: 100%;
+	color: darkred;
+}.footerdiv{
+	background-color: lightgrey;
+}.fhalf{
+	text-align: center;
+}.lhalf{
+	text-align: center;
+}.about{
+	padding: 4%;
+}@media only screen and (min-width:320px) and (max-width:767px){
+
+
+.navdiv{flex-direction: column;}
+.navdiv button{width: 100%;}
+}
+@media only screen and (min-width:768px) and (max-width:1023px){
+.navdiv  button{
+	width: 49.6%;
+}.footerdiv{
+	color: black;
+}
+}
+

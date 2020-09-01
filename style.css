@@ -1,0 +1,127 @@
+body{
+	background-color: snow;
+}
+.headerdiv{
+	background-color: black;
+	padding: 0.5%;
+	color: white;
+	font-style: italic;
+	font-family: courier;
+	font-size: 30px;
+	text-align: center;
+	opacity: 80%;
+	padding-right: 2%;
+}.headerdiv button{
+	width: 25%;
+	background-color: black;
+	padding: 0.5%;
+	float: left;
+	position: relative;
+}.headerdiv  a{
+	color: white;
+	font-family: courier;
+	font-size: 25px;
+	text-decoration: none;
+}.headerdiv button:hover{
+	background-color: lightgrey;
+	opacity: 80%;
+	animation:all 1s ease;
+}.headerdiv button a:hover{
+	opacity: 100%;
+	color: darkred;
+}
+.headerdiv div input{
+	padding: 1%;
+	width:15%;
+	float: right;
+	border:none;
+	outline: none;
+}.headerdiv i{
+	float: right;
+	padding: 0.5%;
+}
+.headerdiv img{
+	padding-top: 0.5%;
+	padding-right: 2%;
+}.navdiv{
+	width: 100%;
+	background-color: black;
+	opacity: 80%;
+}.navdiv button{
+	width: 24.75%;
+	padding: 1%;
+	background-color: black;
+	outline: none;
+	border: 0.1px double grey;
+}.navdiv button a{
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	font-family: courier;
+	font-size: 25px;
+	font-style: italic;
+	opacity: 100%;
+	letter-spacing: 2px;
+}
+.navdiv button:hover{
+	background-color: lightgrey;
+	opacity: 80%;
+	animation:all 1s ease;
+	padding: 1% 0.5%;
+}.navdiv button a:hover{
+	opacity: 100%;
+	color: darkred;
+}
+.addiv img{
+	width: 100%;
+}.maindiv div{
+	justify-content: space-around;
+}.bodydiv{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}.bodyleft{
+	padding-top: 14%;
+	width: 45%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}.bodyright{width: 45%;padding-top: 6%;background-color:white;color: black;text-align: center;font-size: 20px;
+}.bodyleft img{
+	width: 100%;
+	margin: 5%;
+	padding-left: 15%;
+	padding-top: 10%;
+	float: left;
+}.bodyright img{
+	width: 100%;
+	padding-right: 15%;
+	padding-bottom: 19%;
+	float: right;
+}.bodyleft a{
+	color: white;
+}.bodyright a{
+	color: black;
+}.footerdiv{
+	background-color: lightgrey;
+}
+@media only screen and (min-width:320px) and (max-width:767px){
+
+.navdiv{flex-direction: column;}
+.navdiv button{width: 100%;}
+.bodyleft p{
+	font-size: 10px; }
+.bodyright p{
+	font-size: 10px;}
+}
+@media only screen and (min-width:768px) and (max-width:1023px){
+.navdiv  button{
+	width: 49.6%;
+}.bodyleft p{
+	font-size: 15px;
+}.bodyright p{
+	font-size: 15px;
+}
+}

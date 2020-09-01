@@ -1,0 +1,164 @@
+body{
+	/*background-color: black;*/
+	background: url("bg3.jpg") no-repeat;
+	-webkit-background-size:cover;
+	-o-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+}.headerdiv{
+	background-color: black;
+	padding: 0.5%;
+	color: white;
+	font-style: italic;
+	font-family: courier;
+	font-size: 30px;
+	text-align: center;
+	opacity: 80%;
+	padding-right: 2%;
+}.headerdiv button{
+	
+	width: 22%;
+	background-color: black;
+	padding: 0.5%;
+	float: left;
+	position: relative;
+}.headerdiv  a{
+	color: white;
+	font-family: courier;
+	font-size: 25px;
+	text-decoration: none;
+}.headerdiv button:hover{
+	background-color: lightgrey;
+	opacity: 80%;
+	animation:all 1s ease;
+}.headerdiv button a:hover{
+	opacity: 100%;
+	color: darkred;
+}
+.headerdiv div input{
+	padding: 1%;
+	width:15%;
+	float: right;
+	border:none;
+	outline: none;
+}.headerdiv i{
+	float: right;
+	padding: 0.5%;
+}.headerdiv img{
+	margin-left: 2%;
+	margin-top: 0.5%;
+}
+.headerdiv{
+	background-color: black;
+	padding: 0.5%;
+	color: white;
+	font-style: italic;
+	font-family: courier;
+	font-size: 30px;
+	text-align: center;
+	opacity: 80%;
+	padding-right: 2%;
+}.headerdiv img{
+	float: left;
+	padding:2% 0% 2% 2%;
+}.navdiv{
+	width: 100%;
+	background-color: black;
+	opacity: 80%;
+}.navdiv button{
+	width: 24.75%;
+	padding: 1%;
+	background-color: black;
+	outline: none;
+	border: 0.1px double grey;
+	
+}.navdiv button a{
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	font-family: courier;
+	font-size: 25px;
+	font-style: italic;
+	opacity: 100%;
+	letter-spacing: 2px;
+}.navdiv button:hover{
+	background-color: lightgrey;
+	opacity: 80%;
+	animation:all 1s ease;
+	padding: 1% 0.5%;
+}.navdiv button a:hover{
+	opacity: 100%;
+	color: darkred;
+}
+.formd{
+	width: 30%;
+	background-color: lightgrey;
+	padding: 2%;
+	margin: 1% 35% 1% 32%;
+	box-shadow: 10px 10px 8px 10px grey;}
+.input1{
+	border-radius: 30px;
+	padding-left: 3%;
+	background-color: white;
+	padding: 2%;
+	margin: 3%;}
+.input1 input{
+	width: 90%;
+	border:none;}
+.input1 input:focus{
+	outline: none;}
+.input1 i{
+	color: orange;}
+.agree{
+	padding-left: 3%;}
+.agree span a{
+	color: green;}
+.butt{
+	text-align: right;}
+.butt input{
+	background-color: orange;
+	color: white;
+	border-radius: 15px;
+	padding: 3%;
+	width: 220px;
+	border:none;}
+.butt input:hover{
+	background-color: red;
+	color: white;
+	cursor: pointer;
+}
+h1{
+	text-align: center;
+	color: darkred;
+}.footerdiv{
+	background-color: lightgrey;
+}
+@media only screen and (min-width:320px) and (max-width:767px){
+.navdiv{
+	flex-direction: column;
+}
+.navdiv button{
+	width: 100%;
+}
+.formd{
+	width: 50%;
+	height: auto;
+	margin-left: 25%;
+}
+.input1 input{
+	width: 40%;
+
+}
+}
+@media only screen and (min-width:768px) and (max-width:1023px){
+.navdiv  button{
+	width: 49.6%;
+}.footerdiv{
+	color: black;
+}.formd{
+	width: 50%;
+	text-align: center;
+	margin-left: 20%;
+	height: auto;
+}
+}
