@@ -108,7 +108,9 @@ body{
 	background-color: lightgrey;
 }
 @media only screen and (min-width:320px) and (max-width:767px){
-
+.headerdiv button{
+	width:37%;
+}
 .navdiv{flex-direction: column;}
 .navdiv button{width: 100%;}
 .bodyleft p{
